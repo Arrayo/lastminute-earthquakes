@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "eq-emsc-20260215_0000258",
+  "magnitude": 2.6,
+  "magnitudeType": "m",
+  "place": "FLORES REGION, INDONESIA",
+  "coordinates": {
+    "latitude": -8.49,
+    "longitude": 120.68,
+    "depth": 159
+  },
+  "time": "2026-02-15T19:08:57.000Z",
+  "updatedAt": "2026-02-15T19:56:20.832Z",
+  "source": {
+    "id": "emsc",
+    "name": "EMSC / SeismicPortal",
+    "url": "https://www.seismicportal.eu/",
+    "attribution": "European-Mediterranean Seismological Centre"
+  },
+  "impact": {
+    "tsunami": false,
+    "felt": null,
+    "alert": null,
+    "cdi": null,
+    "mmi": null,
+    "significance": 0
+  },
+  "quality": {
+    "status": "automatic",
+    "gapDistance": null,
+    "rms": null,
+    "stationCount": 0
+  },
+  "url": "https://www.seismicportal.eu/eventdetail.html?unid=20260215_0000258"
+}

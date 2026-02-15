@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "eq-ak2026dgbkav",
+  "magnitude": 0.5,
+  "magnitudeType": "ml",
+  "place": "85 km NW of Ninilchik, Alaska",
+  "coordinates": {
+    "latitude": 60.516,
+    "longitude": -152.895,
+    "depth": 15
+  },
+  "time": "2026-02-15T18:58:25.221Z",
+  "updatedAt": "2026-02-15T19:56:20.832Z",
+  "source": {
+    "id": "usgs",
+    "name": "USGS Earthquake Hazards Program",
+    "url": "https://earthquake.usgs.gov/",
+    "attribution": "U.S. Geological Survey"
+  },
+  "impact": {
+    "tsunami": false,
+    "felt": null,
+    "alert": null,
+    "cdi": null,
+    "mmi": null,
+    "significance": 4
+  },
+  "quality": {
+    "status": "automatic",
+    "gapDistance": 200,
+    "rms": 0.1,
+    "stationCount": 7
+  },
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026dgbkav"
+}

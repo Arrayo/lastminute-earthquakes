@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "eq-emsc-20260215_0000255",
+  "magnitude": 4.3,
+  "magnitudeType": "mb",
+  "place": "FOX ISLANDS, ALEUTIAN ISLANDS",
+  "coordinates": {
+    "latitude": 51.262,
+    "longitude": -169.244,
+    "depth": 10
+  },
+  "time": "2026-02-15T18:28:44.061Z",
+  "updatedAt": "2026-02-15T19:56:20.832Z",
+  "source": {
+    "id": "emsc",
+    "name": "EMSC / SeismicPortal",
+    "url": "https://www.seismicportal.eu/",
+    "attribution": "European-Mediterranean Seismological Centre"
+  },
+  "impact": {
+    "tsunami": false,
+    "felt": null,
+    "alert": null,
+    "cdi": null,
+    "mmi": null,
+    "significance": 0
+  },
+  "quality": {
+    "status": "automatic",
+    "gapDistance": null,
+    "rms": null,
+    "stationCount": 0
+  },
+  "url": "https://www.seismicportal.eu/eventdetail.html?unid=20260215_0000255"
+}

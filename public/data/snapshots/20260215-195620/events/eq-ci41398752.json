@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "eq-ci41398752",
+  "magnitude": 1.42,
+  "magnitudeType": "ml",
+  "place": "16 km W of Searles Valley, CA",
+  "coordinates": {
+    "latitude": 35.7421666666667,
+    "longitude": -117.575,
+    "depth": 3.84
+  },
+  "time": "2026-02-15T19:39:12.340Z",
+  "updatedAt": "2026-02-15T19:56:20.831Z",
+  "source": {
+    "id": "usgs",
+    "name": "USGS Earthquake Hazards Program",
+    "url": "https://earthquake.usgs.gov/",
+    "attribution": "U.S. Geological Survey"
+  },
+  "impact": {
+    "tsunami": false,
+    "felt": null,
+    "alert": null,
+    "cdi": null,
+    "mmi": null,
+    "significance": 31
+  },
+  "quality": {
+    "status": "automatic",
+    "gapDistance": 63,
+    "rms": 0.14,
+    "stationCount": 33
+  },
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41398752"
+}

@@ -178,10 +178,16 @@ body {
   flex-wrap: wrap;
 }
 
-.earthquake-list__depth {
+.earthquake-list__meta {
   margin-left: auto;
   font-size: 0.85rem;
   color: var(--color-text-muted);
+}
+
+.earthquake-list__time {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  opacity: 0.8;
 }
 
 .map-layout {
@@ -453,7 +459,7 @@ body {
     gap: 0.25rem;
   }
 
-  .earthquake-list__depth {
+  .earthquake-list__meta {
     margin-left: 0;
   }
 

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "eq-ci41398736",
+  "magnitude": 1.14,
+  "magnitudeType": "ml",
+  "place": "19 km SE of Bodfish, CA",
+  "coordinates": {
+    "latitude": 35.4681666666667,
+    "longitude": -118.3385,
+    "depth": 3.06
+  },
+  "time": "2026-02-15T19:31:43.610Z",
+  "updatedAt": "2026-02-15T19:56:20.832Z",
+  "source": {
+    "id": "usgs",
+    "name": "USGS Earthquake Hazards Program",
+    "url": "https://earthquake.usgs.gov/",
+    "attribution": "U.S. Geological Survey"
+  },
+  "impact": {
+    "tsunami": false,
+    "felt": null,
+    "alert": null,
+    "cdi": null,
+    "mmi": null,
+    "significance": 20
+  },
+  "quality": {
+    "status": "automatic",
+    "gapDistance": 89,
+    "rms": 0.14,
+    "stationCount": 34
+  },
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41398736"
+}

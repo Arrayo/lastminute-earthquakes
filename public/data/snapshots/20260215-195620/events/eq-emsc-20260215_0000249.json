@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "eq-emsc-20260215_0000249",
+  "magnitude": 1.3,
+  "magnitudeType": "ml",
+  "place": "EASTERN TURKEY",
+  "coordinates": {
+    "latitude": 38.3533,
+    "longitude": 38.7578,
+    "depth": 11.2
+  },
+  "time": "2026-02-15T18:26:36.000Z",
+  "updatedAt": "2026-02-15T19:56:20.832Z",
+  "source": {
+    "id": "emsc",
+    "name": "EMSC / SeismicPortal",
+    "url": "https://www.seismicportal.eu/",
+    "attribution": "European-Mediterranean Seismological Centre"
+  },
+  "impact": {
+    "tsunami": false,
+    "felt": null,
+    "alert": null,
+    "cdi": null,
+    "mmi": null,
+    "significance": 0
+  },
+  "quality": {
+    "status": "automatic",
+    "gapDistance": null,
+    "rms": null,
+    "stationCount": 0
+  },
+  "url": "https://www.seismicportal.eu/eventdetail.html?unid=20260215_0000249"
+}
