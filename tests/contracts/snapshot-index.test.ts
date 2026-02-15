@@ -1,6 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { parseSnapshotIndex } from "../../src/domain/validation/parsers.ts";
 import fixture from "../fixtures/snapshot-index.json";
+import { mutableClone } from "../helpers/fixture.ts";
 
 describe("SnapshotIndex contract", () => {
   it("parses a valid fixture", () => {
@@ -12,29 +13,32 @@ describe("SnapshotIndex contract", () => {
   });
 
   it("validates event coordinates range", () => {
-    const bad = structuredClone(fixture);
+    const bad = mutableClone(fixture);
     bad.events[0].coordinates.latitude = 999;
     expect(() => parseSnapshotIndex(bad)).toThrow();
   });
 
   it("allows null bbox", () => {
-    const result = parseSnapshotIndex({ ...fixture, bbox: null });
+    const data = mutableClone(fixture);
+    data.bbox = null;
+    const result = parseSnapshotIndex(data);
     expect(result.bbox).toBeNull();
   });
 
   it("rejects bbox with wrong length", () => {
-    expect(() =>
-      parseSnapshotIndex({ ...fixture, bbox: [1, 2, 3] })
-    ).toThrow();
+    const data = mutableClone(fixture);
+    data.bbox = [1, 2, 3];
+    expect(() => parseSnapshotIndex(data)).toThrow();
   });
 
   it("rejects missing source", () => {
-    const { source: _, ...rest } = fixture;
+    const { source: _source, ...rest } = fixture;
+    void _source;
     expect(() => parseSnapshotIndex(rest)).toThrow();
   });
 
   it("validates event time is ISO datetime", () => {
-    const bad = structuredClone(fixture);
+    const bad = mutableClone(fixture);
     bad.events[0].time = "yesterday";
     expect(() => parseSnapshotIndex(bad)).toThrow();
   });

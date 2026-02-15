@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import type { SnapshotIndex } from "../../domain/models/SnapshotIndex.ts";
-import type { GetLatestSnapshot } from "../../application/usecases/GetLatestSnapshot.ts";
+import type { LoadLatestSnapshotUseCase } from "../../application/usecases/LoadLatestSnapshotUseCase.ts";
 
 interface UseSnapshotResult {
   snapshot: SnapshotIndex | null;
@@ -9,7 +9,7 @@ interface UseSnapshotResult {
 }
 
 export function useSnapshot(
-  getLatestSnapshot: GetLatestSnapshot
+  loadLatestSnapshot: LoadLatestSnapshotUseCase
 ): UseSnapshotResult {
   const [snapshot, setSnapshot] = useState<SnapshotIndex | null>(null);
   const [loading, setLoading] = useState(true);
@@ -18,7 +18,7 @@ export function useSnapshot(
   useEffect(() => {
     let cancelled = false;
 
-    getLatestSnapshot
+    loadLatestSnapshot
       .execute()
       .then((data) => {
         if (!cancelled) {
@@ -36,7 +36,7 @@ export function useSnapshot(
     return () => {
       cancelled = true;
     };
-  }, [getLatestSnapshot]);
+  }, [loadLatestSnapshot]);
 
   return { snapshot, loading, error };
 }

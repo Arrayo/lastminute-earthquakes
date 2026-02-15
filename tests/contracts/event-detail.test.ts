@@ -1,6 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { parseEventDetail } from "../../src/domain/validation/parsers.ts";
 import fixture from "../fixtures/event-detail.json";
+import { mutableClone } from "../helpers/fixture.ts";
 
 describe("EventDetail contract", () => {
   it("parses a valid fixture", () => {
@@ -13,19 +14,19 @@ describe("EventDetail contract", () => {
   });
 
   it("rejects wrong schemaVersion", () => {
-    expect(() =>
-      parseEventDetail({ ...fixture, schemaVersion: 1 })
-    ).toThrow();
+    const bad = mutableClone(fixture);
+    bad.schemaVersion = 1;
+    expect(() => parseEventDetail(bad)).toThrow();
   });
 
   it("rejects invalid alert level", () => {
-    const bad = structuredClone(fixture);
+    const bad = mutableClone(fixture);
     bad.impact.alert = "purple";
     expect(() => parseEventDetail(bad)).toThrow();
   });
 
   it("accepts null impact fields", () => {
-    const data = structuredClone(fixture);
+    const data = mutableClone(fixture);
     data.impact.felt = null;
     data.impact.alert = null;
     data.impact.cdi = null;
@@ -36,19 +37,19 @@ describe("EventDetail contract", () => {
   });
 
   it("rejects invalid quality status", () => {
-    const bad = structuredClone(fixture);
+    const bad = mutableClone(fixture);
     bad.quality.status = "unknown";
     expect(() => parseEventDetail(bad)).toThrow();
   });
 
   it("rejects invalid url", () => {
-    expect(() =>
-      parseEventDetail({ ...fixture, url: "not-a-url" })
-    ).toThrow();
+    const bad = mutableClone(fixture);
+    bad.url = "not-a-url";
+    expect(() => parseEventDetail(bad)).toThrow();
   });
 
   it("rejects negative stationCount", () => {
-    const bad = structuredClone(fixture);
+    const bad = mutableClone(fixture);
     bad.quality.stationCount = -1;
     expect(() => parseEventDetail(bad)).toThrow();
   });

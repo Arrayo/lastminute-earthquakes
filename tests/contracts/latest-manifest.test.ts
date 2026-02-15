@@ -11,7 +11,8 @@ describe("LatestManifest contract", () => {
   });
 
   it("rejects missing schemaVersion", () => {
-    const { schemaVersion: _, ...rest } = fixture;
+    const { schemaVersion: _schemaVersion, ...rest } = fixture;
+    void _schemaVersion;
     expect(() => parseLatestManifest(rest)).toThrow();
   });
 

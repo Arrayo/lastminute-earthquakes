@@ -1,6 +1,6 @@
 import { createContext, useContext } from "react";
 import type { SnapshotIndex } from "../../domain/models/SnapshotIndex.ts";
-import type { GetLatestSnapshot } from "../../application/usecases/GetLatestSnapshot.ts";
+import type { LoadLatestSnapshotUseCase } from "../../application/usecases/LoadLatestSnapshotUseCase.ts";
 import { useSnapshot } from "../hooks/useSnapshot.ts";
 
 interface SnapshotContextValue {
@@ -20,15 +20,15 @@ export function useSnapshotContext(): SnapshotContextValue {
 }
 
 interface SnapshotProviderProps {
-  getLatestSnapshot: GetLatestSnapshot;
+  loadLatestSnapshot: LoadLatestSnapshotUseCase;
   children: React.ReactNode;
 }
 
 export function SnapshotProvider({
-  getLatestSnapshot,
+  loadLatestSnapshot,
   children,
 }: SnapshotProviderProps) {
-  const value = useSnapshot(getLatestSnapshot);
+  const value = useSnapshot(loadLatestSnapshot);
 
   return (
     <SnapshotContext.Provider value={value}>
