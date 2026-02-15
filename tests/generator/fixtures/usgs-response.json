@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "metadata": { "count": 2 },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "us7000abc1",
+      "properties": {
+        "mag": 5.2,
+        "place": "42km NW of Hualien City, Taiwan",
+        "time": 1739628000000,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000abc1",
+        "status": "reviewed",
+        "tsunami": 0,
+        "felt": 120,
+        "alert": "green",
+        "cdi": 4.5,
+        "mmi": 5.1,
+        "sig": 416,
+        "nst": 85,
+        "rms": 0.42,
+        "gap": 45,
+        "magType": "mww",
+        "type": "earthquake"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.4, 24.2, 15.3]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "us7000abc2",
+      "properties": {
+        "mag": null,
+        "place": "Quarry blast",
+        "time": 1739628060000,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000abc2",
+        "status": "automatic",
+        "tsunami": 0,
+        "felt": null,
+        "alert": null,
+        "cdi": null,
+        "mmi": null,
+        "sig": 0,
+        "nst": null,
+        "rms": null,
+        "gap": null,
+        "magType": null,
+        "type": "quarry blast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.5, 40.3, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "us7000abc3",
+      "properties": {
+        "mag": 2.1,
+        "place": "10km S of Ridgecrest, CA",
+        "time": 1739628120000,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000abc3",
+        "status": "automatic",
+        "tsunami": 1,
+        "felt": null,
+        "alert": null,
+        "cdi": null,
+        "mmi": null,
+        "sig": 68,
+        "nst": 12,
+        "rms": 0.89,
+        "gap": 150,
+        "magType": "ml",
+        "type": "earthquake"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.994, 35.527, 8.7]
+      }
+    }
+  ]
+}

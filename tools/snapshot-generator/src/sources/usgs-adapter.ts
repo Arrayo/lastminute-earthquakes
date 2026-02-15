@@ -41,7 +41,11 @@ export class UsgsAdapter implements SourceAdapter {
 
   constructor(private readonly feedUrl: string) {}
 
-  async fetch(_windowStart: Date, _windowEnd: Date): Promise<CandidateEvent[]> {
+  async fetch(
+    ...[_windowStart, _windowEnd]: [Date, Date]
+  ): Promise<CandidateEvent[]> {
+    void _windowStart;
+    void _windowEnd;
     const data = (await fetchWithRetry(this.feedUrl)) as UsgsResponse;
 
     if (!data.features || !Array.isArray(data.features)) {

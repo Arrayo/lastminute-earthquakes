@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "metadata": { "count": 2 },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "20260215_0000254",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [128.04, 2.22, -6.0]
+      },
+      "properties": {
+        "source_id": "1946242",
+        "source_catalog": "EMSC-RTS",
+        "lastupdate": "2026-02-15T18:56:18.492434Z",
+        "time": "2026-02-15T18:51:23.0Z",
+        "flynn_region": "HALMAHERA, INDONESIA",
+        "lat": 2.22,
+        "lon": 128.04,
+        "depth": 6.0,
+        "evtype": "ke",
+        "auth": "BMKG",
+        "mag": 2.8,
+        "magtype": "m",
+        "unid": "20260215_0000254"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "20260215_0000251",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.27, -22.17, -55.8]
+      },
+      "properties": {
+        "source_id": "1946239",
+        "source_catalog": "EMSC-RTS",
+        "lastupdate": "2026-02-15T18:47:47.01298Z",
+        "time": "2026-02-15T18:37:22.0Z",
+        "flynn_region": "ANTOFAGASTA, CHILE",
+        "lat": -22.17,
+        "lon": -69.27,
+        "depth": 55.8,
+        "evtype": "ke",
+        "auth": "CSN",
+        "mag": 3.1,
+        "magtype": "ml",
+        "unid": "20260215_0000251"
+      }
+    }
+  ]
+}
