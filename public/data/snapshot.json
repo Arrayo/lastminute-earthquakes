@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-02-15T12:00:00Z",
+  "source": "USGS Earthquake Hazards Program",
+  "count": 3,
+  "earthquakes": [
+    {
+      "id": "us7000q001",
+      "magnitude": 5.2,
+      "place": "42km NW of Hualien City, Taiwan",
+      "coordinates": { "latitude": 24.2, "longitude": 121.4 },
+      "depth": 15.3,
+      "time": 1739617200000,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q001"
+    },
+    {
+      "id": "us7000q002",
+      "magnitude": 3.8,
+      "place": "12km SE of Ridgecrest, CA",
+      "coordinates": { "latitude": 35.5, "longitude": -117.6 },
+      "depth": 8.7,
+      "time": 1739613600000,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q002"
+    },
+    {
+      "id": "us7000q003",
+      "magnitude": 4.5,
+      "place": "South Sandwich Islands region",
+      "coordinates": { "latitude": -56.1, "longitude": -27.3 },
+      "depth": 33.0,
+      "time": 1739610000000,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q003"
+    }
+  ]
+}

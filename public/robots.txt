@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lastminute-earthquakes.com/sitemap.xml
