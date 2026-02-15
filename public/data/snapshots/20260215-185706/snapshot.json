@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-02-15T18:57:06.846Z",
+  "source": {
+    "id": "emsc",
+    "name": "EMSC / SeismicPortal",
+    "url": "https://www.seismicportal.eu/",
+    "attribution": "European-Mediterranean Seismological Centre"
+  },
+  "bbox": [
+    -165.1133,
+    -30.85,
+    1.22000002861023,
+    141.29,
+    60.5747,
+    124.4
+  ],
+  "count": 28,
+  "events": [
+    {
+      "id": "eq-emsc-20260215_0000254",
+      "magnitude": 2.8,
+      "place": "HALMAHERA, INDONESIA",
+      "coordinates": {
+        "latitude": 2.22,
+        "longitude": 128.04,
+        "depth": 6
+      },
+      "time": "2026-02-15T18:51:23.000Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000254.json"
+    },
+    {
+      "id": "eq-ci41398728",
+      "magnitude": 1.11,
+      "place": "7 km S of Pearblossom, CA",
+      "coordinates": {
+        "latitude": 34.4396666666667,
+        "longitude": -117.901166666667,
+        "depth": 9.32
+      },
+      "time": "2026-02-15T18:45:38.650Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-ci41398728.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000251",
+      "magnitude": 3.1,
+      "place": "ANTOFAGASTA, CHILE",
+      "coordinates": {
+        "latitude": -22.17,
+        "longitude": -69.27,
+        "depth": 55.8
+      },
+      "time": "2026-02-15T18:37:22.000Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000251.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000253",
+      "magnitude": 3,
+      "place": "NEW GUINEA, PAPUA NEW GUINEA",
+      "coordinates": {
+        "latitude": -5.18,
+        "longitude": 141.29,
+        "depth": 9
+      },
+      "time": "2026-02-15T18:36:21.000Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000253.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000252",
+      "magnitude": 3.3,
+      "place": "PAPUA, INDONESIA",
+      "coordinates": {
+        "latitude": -2.44,
+        "longitude": 137.28,
+        "depth": 10
+      },
+      "time": "2026-02-15T18:31:28.000Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000252.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000248",
+      "magnitude": 4.1,
+      "place": "OAXACA, MEXICO",
+      "coordinates": {
+        "latitude": 16.009,
+        "longitude": -95.629,
+        "depth": 50.2
+      },
+      "time": "2026-02-15T18:27:34.000Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000248.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000246",
+      "magnitude": 3.9,
+      "place": "COQUIMBO, CHILE",
+      "coordinates": {
+        "latitude": -30.85,
+        "longitude": -71.39,
+        "depth": 45.4
+      },
+      "time": "2026-02-15T18:27:09.000Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000246.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000249",
+      "magnitude": 1.3,
+      "place": "EASTERN TURKEY",
+      "coordinates": {
+        "latitude": 38.3533,
+        "longitude": 38.7578,
+        "depth": 11.2
+      },
+      "time": "2026-02-15T18:26:36.000Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000249.json"
+    },
+    {
+      "id": "eq-nc75314327",
+      "magnitude": 1.08,
+      "place": "3 km W of Cobb, CA",
+      "coordinates": {
+        "latitude": 38.8201675415039,
+        "longitude": -122.76016998291,
+        "depth": 1.22000002861023
+      },
+      "time": "2026-02-15T18:24:58.350Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-nc75314327.json"
+    },
+    {
+      "id": "eq-ci41398704",
+      "magnitude": 1.34,
+      "place": "4 km SE of Ontario, CA",
+      "coordinates": {
+        "latitude": 34.025,
+        "longitude": -117.599666666667,
+        "depth": 4.13
+      },
+      "time": "2026-02-15T18:15:43.300Z",
+      "updatedAt": "2026-02-15T18:57:07.203Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-ci41398704.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000245",
+      "magnitude": 2.1,
+      "place": "STRAIT OF GIBRALTAR",
+      "coordinates": {
+        "latitude": 36.7476,
+        "longitude": -5.2724,
+        "depth": 3
+      },
+      "time": "2026-02-15T18:12:15.090Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000245.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000247",
+      "magnitude": 1.3,
+      "place": "CENTRAL TURKEY",
+      "coordinates": {
+        "latitude": 37.6686,
+        "longitude": 35.4167,
+        "depth": 6.9
+      },
+      "time": "2026-02-15T18:02:02.000Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000247.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000250",
+      "magnitude": 1.4,
+      "place": "EASTERN TURKEY",
+      "coordinates": {
+        "latitude": 39.7289,
+        "longitude": 41.9556,
+        "depth": 7
+      },
+      "time": "2026-02-15T18:00:34.000Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000250.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000243",
+      "magnitude": 4.4,
+      "place": "KEPULAUAN TALAUD, INDONESIA",
+      "coordinates": {
+        "latitude": 4.19,
+        "longitude": 127.88,
+        "depth": 10
+      },
+      "time": "2026-02-15T17:58:01.000Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000243.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000242",
+      "magnitude": 1.1,
+      "place": "EASTERN TURKEY",
+      "coordinates": {
+        "latitude": 38.5169,
+        "longitude": 40.2853,
+        "depth": 7
+      },
+      "time": "2026-02-15T17:56:10.000Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000242.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000240",
+      "magnitude": 2.5,
+      "place": "JAVA, INDONESIA",
+      "coordinates": {
+        "latitude": -7.05,
+        "longitude": 107.04,
+        "depth": 108
+      },
+      "time": "2026-02-15T17:52:34.000Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000240.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000237",
+      "magnitude": 3,
+      "place": "NORTHERN SUMATRA, INDONESIA",
+      "coordinates": {
+        "latitude": 2.13,
+        "longitude": 98.91,
+        "depth": 121
+      },
+      "time": "2026-02-15T17:49:03.000Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000237.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000241",
+      "magnitude": 1.5,
+      "place": "WESTERN TURKEY",
+      "coordinates": {
+        "latitude": 39.2519,
+        "longitude": 28.1347,
+        "depth": 6.8
+      },
+      "time": "2026-02-15T17:44:58.000Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000241.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000239",
+      "magnitude": 2.7,
+      "place": "SOUTHERN YUKON TERRITORY, CANADA",
+      "coordinates": {
+        "latitude": 60.5747,
+        "longitude": -139.7347,
+        "depth": 5
+      },
+      "time": "2026-02-15T17:43:07.385Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000239.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000235",
+      "magnitude": 2.2,
+      "place": "EASTERN TURKEY",
+      "coordinates": {
+        "latitude": 38.2439,
+        "longitude": 38.1439,
+        "depth": 7
+      },
+      "time": "2026-02-15T17:41:56.440Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000235.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000232",
+      "magnitude": 2.5,
+      "place": "JAVA, INDONESIA",
+      "coordinates": {
+        "latitude": -8.92,
+        "longitude": 111.2,
+        "depth": 21
+      },
+      "time": "2026-02-15T17:37:10.000Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000232.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000233",
+      "magnitude": 3.8,
+      "place": "NORTH OF HALMAHERA, INDONESIA",
+      "coordinates": {
+        "latitude": 4.44,
+        "longitude": 128.45,
+        "depth": 101
+      },
+      "time": "2026-02-15T17:34:53.000Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000233.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000234",
+      "magnitude": 2.5,
+      "place": "PAPUA, INDONESIA",
+      "coordinates": {
+        "latitude": -3.32,
+        "longitude": 139.79,
+        "depth": 10
+      },
+      "time": "2026-02-15T17:33:03.000Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000234.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000236",
+      "magnitude": 3.6,
+      "place": "FOX ISLANDS, ALEUTIAN ISLANDS",
+      "coordinates": {
+        "latitude": 53.9135,
+        "longitude": -165.1133,
+        "depth": 57.8
+      },
+      "time": "2026-02-15T17:30:16.505Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000236.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000230",
+      "magnitude": 3,
+      "place": "ANTOFAGASTA, CHILE",
+      "coordinates": {
+        "latitude": -21.14,
+        "longitude": -68.58,
+        "depth": 124.4
+      },
+      "time": "2026-02-15T17:22:09.000Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000230.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000238",
+      "magnitude": 2.1,
+      "place": "SPAIN",
+      "coordinates": {
+        "latitude": 37.1001,
+        "longitude": -5.3007,
+        "depth": 7.8
+      },
+      "time": "2026-02-15T17:17:28.840Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000238.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000231",
+      "magnitude": 2.2,
+      "place": "SICILY, ITALY",
+      "coordinates": {
+        "latitude": 38.482,
+        "longitude": 14.768,
+        "depth": 7.5
+      },
+      "time": "2026-02-15T17:15:38.530Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000231.json"
+    },
+    {
+      "id": "eq-emsc-20260215_0000229",
+      "magnitude": 2.1,
+      "place": "EASTERN TURKEY",
+      "coordinates": {
+        "latitude": 39.0347,
+        "longitude": 40.5006,
+        "depth": 8.9
+      },
+      "time": "2026-02-15T16:59:40.390Z",
+      "updatedAt": "2026-02-15T18:57:07.204Z",
+      "detailUrl": "/data/snapshots/20260215-185706/events/eq-emsc-20260215_0000229.json"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "eq-emsc-20260215_0000234",
+  "magnitude": 2.5,
+  "magnitudeType": "m",
+  "place": "PAPUA, INDONESIA",
+  "coordinates": {
+    "latitude": -3.32,
+    "longitude": 139.79,
+    "depth": 10
+  },
+  "time": "2026-02-15T17:33:03.000Z",
+  "updatedAt": "2026-02-15T18:57:07.204Z",
+  "source": {
+    "id": "emsc",
+    "name": "EMSC / SeismicPortal",
+    "url": "https://www.seismicportal.eu/",
+    "attribution": "European-Mediterranean Seismological Centre"
+  },
+  "impact": {
+    "tsunami": false,
+    "felt": null,
+    "alert": null,
+    "cdi": null,
+    "mmi": null,
+    "significance": 0
+  },
+  "quality": {
+    "status": "automatic",
+    "gapDistance": null,
+    "rms": null,
+    "stationCount": 0
+  },
+  "url": "https://www.seismicportal.eu/eventdetail.html?unid=20260215_0000234"
+}

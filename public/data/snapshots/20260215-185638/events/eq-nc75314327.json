@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "eq-nc75314327",
+  "magnitude": 1.08,
+  "magnitudeType": "md",
+  "place": "3 km W of Cobb, CA",
+  "coordinates": {
+    "latitude": 38.8201675415039,
+    "longitude": -122.76016998291,
+    "depth": 1.22000002861023
+  },
+  "time": "2026-02-15T18:24:58.350Z",
+  "updatedAt": "2026-02-15T18:56:38.436Z",
+  "source": {
+    "id": "usgs",
+    "name": "USGS Earthquake Hazards Program",
+    "url": "https://earthquake.usgs.gov/",
+    "attribution": "U.S. Geological Survey"
+  },
+  "impact": {
+    "tsunami": false,
+    "felt": null,
+    "alert": null,
+    "cdi": null,
+    "mmi": null,
+    "significance": 18
+  },
+  "quality": {
+    "status": "automatic",
+    "gapDistance": 152,
+    "rms": 0.04,
+    "stationCount": 6
+  },
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75314327"
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "eq-ci41398728",
+  "magnitude": 1.11,
+  "magnitudeType": "ml",
+  "place": "7 km S of Pearblossom, CA",
+  "coordinates": {
+    "latitude": 34.4396666666667,
+    "longitude": -117.901166666667,
+    "depth": 9.32
+  },
+  "time": "2026-02-15T18:45:38.650Z",
+  "updatedAt": "2026-02-15T18:56:38.436Z",
+  "source": {
+    "id": "usgs",
+    "name": "USGS Earthquake Hazards Program",
+    "url": "https://earthquake.usgs.gov/",
+    "attribution": "U.S. Geological Survey"
+  },
+  "impact": {
+    "tsunami": false,
+    "felt": null,
+    "alert": null,
+    "cdi": null,
+    "mmi": null,
+    "significance": 19
+  },
+  "quality": {
+    "status": "automatic",
+    "gapDistance": 69,
+    "rms": 0.14,
+    "stationCount": 24
+  },
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41398728"
+}

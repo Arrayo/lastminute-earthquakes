@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "eq-ci41398704",
+  "magnitude": 1.34,
+  "magnitudeType": "ml",
+  "place": "4 km SE of Ontario, CA",
+  "coordinates": {
+    "latitude": 34.025,
+    "longitude": -117.599666666667,
+    "depth": 4.13
+  },
+  "time": "2026-02-15T18:15:43.300Z",
+  "updatedAt": "2026-02-15T18:57:07.203Z",
+  "source": {
+    "id": "usgs",
+    "name": "USGS Earthquake Hazards Program",
+    "url": "https://earthquake.usgs.gov/",
+    "attribution": "U.S. Geological Survey"
+  },
+  "impact": {
+    "tsunami": false,
+    "felt": null,
+    "alert": null,
+    "cdi": null,
+    "mmi": null,
+    "significance": 28
+  },
+  "quality": {
+    "status": "automatic",
+    "gapDistance": 33,
+    "rms": 0.16,
+    "stationCount": 61
+  },
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41398704"
+}

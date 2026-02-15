@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-02-15T18:56:38.055Z",
+  "source": {
+    "id": "usgs",
+    "name": "USGS Earthquake Hazards Program",
+    "url": "https://earthquake.usgs.gov/",
+    "attribution": "U.S. Geological Survey"
+  },
+  "bbox": [
+    -122.76016998291,
+    34.025,
+    1.22000002861023,
+    -117.599666666667,
+    38.8201675415039,
+    9.32
+  ],
+  "count": 3,
+  "events": [
+    {
+      "id": "eq-ci41398728",
+      "magnitude": 1.11,
+      "place": "7 km S of Pearblossom, CA",
+      "coordinates": {
+        "latitude": 34.4396666666667,
+        "longitude": -117.901166666667,
+        "depth": 9.32
+      },
+      "time": "2026-02-15T18:45:38.650Z",
+      "updatedAt": "2026-02-15T18:56:38.436Z",
+      "detailUrl": "/data/snapshots/20260215-185638/events/eq-ci41398728.json"
+    },
+    {
+      "id": "eq-nc75314327",
+      "magnitude": 1.08,
+      "place": "3 km W of Cobb, CA",
+      "coordinates": {
+        "latitude": 38.8201675415039,
+        "longitude": -122.76016998291,
+        "depth": 1.22000002861023
+      },
+      "time": "2026-02-15T18:24:58.350Z",
+      "updatedAt": "2026-02-15T18:56:38.436Z",
+      "detailUrl": "/data/snapshots/20260215-185638/events/eq-nc75314327.json"
+    },
+    {
+      "id": "eq-ci41398704",
+      "magnitude": 1.34,
+      "place": "4 km SE of Ontario, CA",
+      "coordinates": {
+        "latitude": 34.025,
+        "longitude": -117.599666666667,
+        "depth": 4.13
+      },
+      "time": "2026-02-15T18:15:43.300Z",
+      "updatedAt": "2026-02-15T18:56:38.436Z",
+      "detailUrl": "/data/snapshots/20260215-185638/events/eq-ci41398704.json"
+    }
+  ]
+}
