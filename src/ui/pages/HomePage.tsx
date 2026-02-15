@@ -8,11 +8,7 @@ export function HomePage() {
 
   return (
     <section className="page page--home">
-      <Seo
-        title="Home"
-        description={APP_DESCRIPTION}
-        path="/"
-      />
+      <Seo title="Home" description={APP_DESCRIPTION} path="/" />
       <JsonLd />
 
       <h1>Recent Earthquakes</h1>
@@ -24,18 +20,18 @@ export function HomePage() {
       {snapshot && (
         <div className="snapshot-summary">
           <p>
-            <strong>{snapshot.count}</strong> earthquakes recorded.
-            Snapshot generated at{" "}
+            <strong>{snapshot.count}</strong> earthquakes recorded. Snapshot
+            generated at{" "}
             <time dateTime={snapshot.generatedAt}>{snapshot.generatedAt}</time>.
           </p>
-          <p>Source: {snapshot.source}</p>
+          <p>Source: {snapshot.source.name}</p>
 
           <ul className="earthquake-list">
-            {snapshot.earthquakes.map((eq) => (
-              <li key={eq.id} className="earthquake-list__item">
-                <strong>M {eq.magnitude.toFixed(1)}</strong> — {eq.place}
+            {snapshot.events.map((ev) => (
+              <li key={ev.id} className="earthquake-list__item">
+                <strong>M {ev.magnitude.toFixed(1)}</strong> — {ev.place}
                 <span className="earthquake-list__depth">
-                  {eq.depth} km deep
+                  {ev.coordinates.depth} km deep
                 </span>
               </li>
             ))}

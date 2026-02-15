@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "id": "us7000test1",
+  "magnitude": 5.2,
+  "magnitudeType": "mww",
+  "place": "42km NW of Hualien City, Taiwan",
+  "coordinates": { "latitude": 24.2, "longitude": 121.4, "depth": 15.3 },
+  "time": "2026-02-15T10:00:00Z",
+  "updatedAt": "2026-02-15T11:30:00Z",
+  "source": {
+    "id": "usgs",
+    "name": "USGS Earthquake Hazards Program",
+    "url": "https://earthquake.usgs.gov/",
+    "attribution": "U.S. Geological Survey"
+  },
+  "impact": {
+    "tsunami": false,
+    "felt": 142,
+    "alert": "green",
+    "cdi": 4.3,
+    "mmi": 5.1,
+    "significance": 432
+  },
+  "quality": {
+    "status": "reviewed",
+    "gapDistance": 28.0,
+    "rms": 0.74,
+    "stationCount": 86
+  },
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000test1"
+}

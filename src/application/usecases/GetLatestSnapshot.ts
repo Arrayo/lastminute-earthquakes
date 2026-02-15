@@ -1,5 +1,5 @@
 import type { EarthquakeRepository } from "../../domain/ports/EarthquakeRepository.ts";
-import type { Snapshot } from "../../domain/models/Snapshot.ts";
+import type { SnapshotIndex } from "../../domain/models/SnapshotIndex.ts";
 
 export class GetLatestSnapshot {
   readonly repository: EarthquakeRepository;
@@ -8,8 +8,8 @@ export class GetLatestSnapshot {
     this.repository = repository;
   }
 
-  async execute(): Promise<Snapshot> {
-    const pointer = await this.repository.getLatestPointer();
-    return this.repository.getSnapshot(pointer.snapshot);
+  async execute(): Promise<SnapshotIndex> {
+    const manifest = await this.repository.getLatestManifest();
+    return this.repository.getSnapshotIndex(manifest.snapshot);
   }
 }

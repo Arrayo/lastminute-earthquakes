@@ -1,10 +1,10 @@
 import { createContext, useContext } from "react";
-import type { Snapshot } from "../../domain/models/Snapshot.ts";
+import type { SnapshotIndex } from "../../domain/models/SnapshotIndex.ts";
 import type { GetLatestSnapshot } from "../../application/usecases/GetLatestSnapshot.ts";
 import { useSnapshot } from "../hooks/useSnapshot.ts";
 
 interface SnapshotContextValue {
-  snapshot: Snapshot | null;
+  snapshot: SnapshotIndex | null;
   loading: boolean;
   error: string | null;
 }

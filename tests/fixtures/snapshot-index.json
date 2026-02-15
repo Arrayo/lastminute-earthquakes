@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-02-15T12:00:00Z",
+  "source": {
+    "id": "usgs",
+    "name": "USGS Earthquake Hazards Program",
+    "url": "https://earthquake.usgs.gov/",
+    "attribution": "U.S. Geological Survey"
+  },
+  "bbox": [-179.9, -62.5, 1.2, 179.8, 71.3, 620.0],
+  "count": 2,
+  "events": [
+    {
+      "id": "us7000test1",
+      "magnitude": 5.2,
+      "place": "42km NW of Hualien City, Taiwan",
+      "coordinates": { "latitude": 24.2, "longitude": 121.4, "depth": 15.3 },
+      "time": "2026-02-15T10:00:00Z",
+      "updatedAt": "2026-02-15T11:30:00Z",
+      "detailUrl": "/data/events/us7000test1.json"
+    },
+    {
+      "id": "us7000test2",
+      "magnitude": 3.1,
+      "place": "8km S of Pahala, Hawaii",
+      "coordinates": { "latitude": 19.15, "longitude": -155.47, "depth": 34.8 },
+      "time": "2026-02-15T09:30:00Z",
+      "updatedAt": "2026-02-15T10:00:00Z",
+      "detailUrl": null
+    }
+  ]
+}

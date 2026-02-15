@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import type { Snapshot } from "../../domain/models/Snapshot.ts";
+import type { SnapshotIndex } from "../../domain/models/SnapshotIndex.ts";
 import type { GetLatestSnapshot } from "../../application/usecases/GetLatestSnapshot.ts";
 
 interface UseSnapshotResult {
-  snapshot: Snapshot | null;
+  snapshot: SnapshotIndex | null;
   loading: boolean;
   error: string | null;
 }
@@ -11,7 +11,7 @@ interface UseSnapshotResult {
 export function useSnapshot(
   getLatestSnapshot: GetLatestSnapshot
 ): UseSnapshotResult {
-  const [snapshot, setSnapshot] = useState<Snapshot | null>(null);
+  const [snapshot, setSnapshot] = useState<SnapshotIndex | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 

@@ -1,7 +1,9 @@
-import type { LatestPointer } from "../models/LatestPointer.ts";
-import type { Snapshot } from "../models/Snapshot.ts";
+import type { LatestManifest } from "../models/LatestManifest.ts";
+import type { SnapshotIndex } from "../models/SnapshotIndex.ts";
+import type { EventDetail } from "../models/EventDetail.ts";
 
 export interface EarthquakeRepository {
-  getLatestPointer(): Promise<LatestPointer>;
-  getSnapshot(path: string): Promise<Snapshot>;
+  getLatestManifest(): Promise<LatestManifest>;
+  getSnapshotIndex(path: string): Promise<SnapshotIndex>;
+  getEventDetail(url: string): Promise<EventDetail>;
 }

@@ -1,7 +1,13 @@
 import type { EarthquakeRepository } from "../../domain/ports/EarthquakeRepository.ts";
-import type { LatestPointer } from "../../domain/models/LatestPointer.ts";
-import type { Snapshot } from "../../domain/models/Snapshot.ts";
+import type { LatestManifest } from "../../domain/models/LatestManifest.ts";
+import type { SnapshotIndex } from "../../domain/models/SnapshotIndex.ts";
+import type { EventDetail } from "../../domain/models/EventDetail.ts";
 import type { HttpClient } from "../http/HttpClient.ts";
+import {
+  parseLatestManifest,
+  parseSnapshotIndex,
+  parseEventDetail,
+} from "../../domain/validation/parsers.ts";
 
 export class HttpEarthquakeRepository implements EarthquakeRepository {
   readonly httpClient: HttpClient;
@@ -10,11 +16,18 @@ export class HttpEarthquakeRepository implements EarthquakeRepository {
     this.httpClient = httpClient;
   }
 
-  async getLatestPointer(): Promise<LatestPointer> {
-    return this.httpClient.get<LatestPointer>("/data/latest.json");
+  async getLatestManifest(): Promise<LatestManifest> {
+    const raw = await this.httpClient.get<unknown>("/data/latest.json");
+    return parseLatestManifest(raw);
   }
 
-  async getSnapshot(path: string): Promise<Snapshot> {
-    return this.httpClient.get<Snapshot>(path);
+  async getSnapshotIndex(path: string): Promise<SnapshotIndex> {
+    const raw = await this.httpClient.get<unknown>(path);
+    return parseSnapshotIndex(raw);
+  }
+
+  async getEventDetail(url: string): Promise<EventDetail> {
+    const raw = await this.httpClient.get<unknown>(url);
+    return parseEventDetail(raw);
   }
 }
