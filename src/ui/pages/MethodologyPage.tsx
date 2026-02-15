@@ -5,7 +5,7 @@ export function MethodologyPage() {
     <section className="page page--methodology">
       <Seo
         title="Methodology"
-        description="Learn how earthquake data is collected, processed, and presented in Last Minute Earthquakes."
+        description="How earthquake data is collected from USGS and EMSC, matched, merged, and presented as quality-scored snapshots."
         path="/methodology"
       />
 

@@ -8,8 +8,12 @@ export function HomePage() {
 
   return (
     <section className="page page--home">
-      <Seo title="Home" description={APP_DESCRIPTION} path="/" />
-      <JsonLd />
+      <Seo
+        title="Home"
+        description={APP_DESCRIPTION}
+        path="/"
+      />
+      <JsonLd page="home" />
 
       <h1>Recent Earthquakes</h1>
 

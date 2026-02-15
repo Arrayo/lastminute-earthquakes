@@ -1,5 +1,6 @@
 import { useCallback, useState } from "react";
 import { Seo } from "../components/Seo.tsx";
+import { JsonLd } from "../components/JsonLd.tsx";
 import { useSnapshotContext } from "../components/SnapshotContext.tsx";
 import { useUseCases } from "../components/UseCaseContext.tsx";
 import { useEventDetail } from "../hooks/useEventDetail.ts";
@@ -38,10 +39,11 @@ export function MapPage() {
   return (
     <section className="page page--map">
       <Seo
-        title="Map"
-        description="Interactive map showing recent seismic activity worldwide."
+        title="Earthquake Map"
+        description="Interactive map showing recent seismic activity worldwide. Click events for magnitude, depth, and source details."
         path="/map"
       />
+      <JsonLd page="map" />
 
       {loading && <p className="loading">Loading map data…</p>}
 

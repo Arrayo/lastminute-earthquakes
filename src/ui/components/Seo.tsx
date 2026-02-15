@@ -11,6 +11,7 @@ interface SeoProps {
   description: string;
   path: string;
   type?: string;
+  image?: string;
 }
 
 export function Seo({
@@ -18,9 +19,11 @@ export function Seo({
   description,
   path,
   type = "website",
+  image,
 }: SeoProps) {
-  const fullTitle = `${title} | ${APP_NAME}`;
+  const fullTitle = path === "/" ? APP_NAME : `${title} | ${APP_NAME}`;
   const canonical = `${APP_URL}${path}`;
+  const ogImage = image ?? `${APP_URL}/og-image.png`;
 
   return (
     <Helmet>
@@ -34,11 +37,13 @@ export function Seo({
       <meta property="og:type" content={type} />
       <meta property="og:locale" content={APP_LOCALE} />
       <meta property="og:site_name" content={APP_NAME} />
+      <meta property="og:image" content={ogImage} />
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content={APP_TWITTER_HANDLE} />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={ogImage} />
     </Helmet>
   );
 }
