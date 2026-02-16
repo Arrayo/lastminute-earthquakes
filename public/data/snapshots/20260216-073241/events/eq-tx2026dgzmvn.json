@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "eq-tx2026dgzmvn",
+  "magnitude": 3.4,
+  "magnitudeType": "ml",
+  "place": "60 km S of Whites City, New Mexico",
+  "coordinates": {
+    "latitude": 31.627,
+    "longitude": -104.368,
+    "depth": 6.7407
+  },
+  "time": "2026-02-16T07:05:21.381Z",
+  "updatedAt": "2026-02-16T07:32:42.769Z",
+  "source": {
+    "id": "usgs",
+    "name": "USGS Earthquake Hazards Program",
+    "url": "https://earthquake.usgs.gov/",
+    "attribution": "U.S. Geological Survey"
+  },
+  "impact": {
+    "tsunami": false,
+    "felt": null,
+    "alert": null,
+    "cdi": null,
+    "mmi": 4.368,
+    "significance": 178
+  },
+  "quality": {
+    "status": "reviewed",
+    "gapDistance": 73,
+    "rms": 0.2,
+    "stationCount": 19
+  },
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026dgzmvn"
+}

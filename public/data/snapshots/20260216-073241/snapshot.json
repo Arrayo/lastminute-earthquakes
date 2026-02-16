@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-02-16T07:32:41.176Z",
+  "source": {
+    "id": "usgs",
+    "name": "USGS Earthquake Hazards Program",
+    "url": "https://earthquake.usgs.gov/",
+    "attribution": "U.S. Geological Survey"
+  },
+  "bbox": [
+    -146.897,
+    -46.2126,
+    0.129999995231628,
+    172.7618,
+    60.981,
+    358
+  ],
+  "count": 22,
+  "events": [
+    {
+      "id": "eq-nc75314507",
+      "magnitude": 0.75,
+      "place": "8 km NW of The Geysers, CA",
+      "coordinates": {
+        "latitude": 38.8308334350586,
+        "longitude": -122.824996948242,
+        "depth": 3.25
+      },
+      "time": "2026-02-16T07:29:37.000Z",
+      "updatedAt": "2026-02-16T07:32:42.770Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-nc75314507.json"
+    },
+    {
+      "id": "eq-emsc-20260216_0000103",
+      "magnitude": 3.3,
+      "place": "OFF W. COAST OF S. ISLAND, N.Z.",
+      "coordinates": {
+        "latitude": -46.2126,
+        "longitude": 166.8525,
+        "depth": 10
+      },
+      "time": "2026-02-16T07:19:26.937Z",
+      "updatedAt": "2026-02-16T07:32:42.770Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-emsc-20260216_0000103.json"
+    },
+    {
+      "id": "eq-emsc-20260216_0000106",
+      "magnitude": 4.1,
+      "place": "OFF COAST OF NORTHERN PERU",
+      "coordinates": {
+        "latitude": -8.46,
+        "longitude": -80.19,
+        "depth": 16
+      },
+      "time": "2026-02-16T07:19:10.000Z",
+      "updatedAt": "2026-02-16T07:32:42.770Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-emsc-20260216_0000106.json"
+    },
+    {
+      "id": "eq-emsc-20260216_0000105",
+      "magnitude": 4.5,
+      "place": "KYRGYZSTAN",
+      "coordinates": {
+        "latitude": 41.2802,
+        "longitude": 78.3651,
+        "depth": 8
+      },
+      "time": "2026-02-16T07:14:34.020Z",
+      "updatedAt": "2026-02-16T07:32:42.770Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-emsc-20260216_0000105.json"
+    },
+    {
+      "id": "eq-emsc-20260216_0000104",
+      "magnitude": 4,
+      "place": "BANDA SEA",
+      "coordinates": {
+        "latitude": -6.16,
+        "longitude": 128.35,
+        "depth": 358
+      },
+      "time": "2026-02-16T07:07:51.000Z",
+      "updatedAt": "2026-02-16T07:32:42.770Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-emsc-20260216_0000104.json"
+    },
+    {
+      "id": "eq-tx2026dgzmvn",
+      "magnitude": 3.4,
+      "place": "60 km S of Whites City, New Mexico",
+      "coordinates": {
+        "latitude": 31.627,
+        "longitude": -104.368,
+        "depth": 6.7407
+      },
+      "time": "2026-02-16T07:05:21.381Z",
+      "updatedAt": "2026-02-16T07:32:42.769Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-tx2026dgzmvn.json"
+    },
+    {
+      "id": "eq-emsc-20260216_0000107",
+      "magnitude": 4.1,
+      "place": "CHIAPAS, MEXICO",
+      "coordinates": {
+        "latitude": 15.739,
+        "longitude": -92.615,
+        "depth": 173.1
+      },
+      "time": "2026-02-16T06:59:55.000Z",
+      "updatedAt": "2026-02-16T07:32:42.770Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-emsc-20260216_0000107.json"
+    },
+    {
+      "id": "eq-tx2026dgzhtw",
+      "magnitude": 2.1,
+      "place": "62 km S of Whites City, New Mexico",
+      "coordinates": {
+        "latitude": 31.611,
+        "longitude": -104.379,
+        "depth": 4.208
+      },
+      "time": "2026-02-16T06:59:15.113Z",
+      "updatedAt": "2026-02-16T07:32:42.769Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-tx2026dgzhtw.json"
+    },
+    {
+      "id": "eq-nc75314502",
+      "magnitude": 2.12,
+      "place": "1 km NNW of Pinnacles, CA",
+      "coordinates": {
+        "latitude": 36.5415000915527,
+        "longitude": -121.147003173828,
+        "depth": 0.920000016689301
+      },
+      "time": "2026-02-16T06:55:27.680Z",
+      "updatedAt": "2026-02-16T07:32:42.769Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-nc75314502.json"
+    },
+    {
+      "id": "eq-ak2026dgymbs",
+      "magnitude": 1.4,
+      "place": "17 km NW of Tatitlek, Alaska",
+      "coordinates": {
+        "latitude": 60.981,
+        "longitude": -146.897,
+        "depth": 27
+      },
+      "time": "2026-02-16T06:34:04.615Z",
+      "updatedAt": "2026-02-16T07:32:42.769Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-ak2026dgymbs.json"
+    },
+    {
+      "id": "eq-nc75314492",
+      "magnitude": 0.97,
+      "place": "2 km N of The Geysers, CA",
+      "coordinates": {
+        "latitude": 38.7941665649414,
+        "longitude": -122.758163452148,
+        "depth": 0.129999995231628
+      },
+      "time": "2026-02-16T06:34:04.360Z",
+      "updatedAt": "2026-02-16T07:32:42.770Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-nc75314492.json"
+    },
+    {
+      "id": "eq-emsc-20260216_0000097",
+      "magnitude": 2.1,
+      "place": "DODECANESE IS.-TURKEY BORDER REG",
+      "coordinates": {
+        "latitude": 36.1342,
+        "longitude": 28.7375,
+        "depth": 17.7
+      },
+      "time": "2026-02-16T06:22:16.000Z",
+      "updatedAt": "2026-02-16T07:32:42.770Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-emsc-20260216_0000097.json"
+    },
+    {
+      "id": "eq-emsc-20260216_0000098",
+      "magnitude": 1.8,
+      "place": "WESTERN TURKEY",
+      "coordinates": {
+        "latitude": 37.1769,
+        "longitude": 28.5264,
+        "depth": 10.7
+      },
+      "time": "2026-02-16T06:19:12.090Z",
+      "updatedAt": "2026-02-16T07:32:42.770Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-emsc-20260216_0000098.json"
+    },
+    {
+      "id": "eq-emsc-20260216_0000093",
+      "magnitude": 3,
+      "place": "SOUTH ISLAND OF NEW ZEALAND",
+      "coordinates": {
+        "latitude": -41.2501,
+        "longitude": 172.7618,
+        "depth": 162.8
+      },
+      "time": "2026-02-16T06:17:42.463Z",
+      "updatedAt": "2026-02-16T07:32:42.770Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-emsc-20260216_0000093.json"
+    },
+    {
+      "id": "eq-emsc-20260216_0000095",
+      "magnitude": 2.6,
+      "place": "KEPULAUAN ALOR, INDONESIA",
+      "coordinates": {
+        "latitude": -8.73,
+        "longitude": 124.15,
+        "depth": 86
+      },
+      "time": "2026-02-16T06:16:51.000Z",
+      "updatedAt": "2026-02-16T07:32:42.770Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-emsc-20260216_0000095.json"
+    },
+    {
+      "id": "eq-emsc-20260216_0000089",
+      "magnitude": 4.2,
+      "place": "WESTERN XIZANG",
+      "coordinates": {
+        "latitude": 28.35,
+        "longitude": 87.63,
+        "depth": 10
+      },
+      "time": "2026-02-16T06:05:49.700Z",
+      "updatedAt": "2026-02-16T07:32:42.770Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-emsc-20260216_0000089.json"
+    },
+    {
+      "id": "eq-emsc-20260216_0000094",
+      "magnitude": 1.4,
+      "place": "WESTERN TURKEY",
+      "coordinates": {
+        "latitude": 39.2243,
+        "longitude": 28.1085,
+        "depth": 9.4
+      },
+      "time": "2026-02-16T06:01:18.370Z",
+      "updatedAt": "2026-02-16T07:32:42.770Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-emsc-20260216_0000094.json"
+    },
+    {
+      "id": "eq-emsc-20260216_0000092",
+      "magnitude": 5,
+      "place": "SOUTHERN SUMATRA, INDONESIA",
+      "coordinates": {
+        "latitude": -0.5113,
+        "longitude": 99.2388,
+        "depth": 52
+      },
+      "time": "2026-02-16T06:00:38.490Z",
+      "updatedAt": "2026-02-16T07:32:42.770Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-emsc-20260216_0000092.json"
+    },
+    {
+      "id": "eq-emsc-20260216_0000088",
+      "magnitude": 2.7,
+      "place": "ANTOFAGASTA, CHILE",
+      "coordinates": {
+        "latitude": -21.91,
+        "longitude": -68.64,
+        "depth": 120.8
+      },
+      "time": "2026-02-16T05:48:43.000Z",
+      "updatedAt": "2026-02-16T07:32:42.770Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-emsc-20260216_0000088.json"
+    },
+    {
+      "id": "eq-emsc-20260216_0000086",
+      "magnitude": 2.7,
+      "place": "ANTOFAGASTA, CHILE",
+      "coordinates": {
+        "latitude": -21.19,
+        "longitude": -68.7,
+        "depth": 113.9
+      },
+      "time": "2026-02-16T05:46:02.000Z",
+      "updatedAt": "2026-02-16T07:32:42.770Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-emsc-20260216_0000086.json"
+    },
+    {
+      "id": "eq-emsc-20260216_0000090",
+      "magnitude": 1.5,
+      "place": "WESTERN TURKEY",
+      "coordinates": {
+        "latitude": 40.9044,
+        "longitude": 31.7919,
+        "depth": 7.2
+      },
+      "time": "2026-02-16T05:45:17.850Z",
+      "updatedAt": "2026-02-16T07:32:42.770Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-emsc-20260216_0000090.json"
+    },
+    {
+      "id": "eq-emsc-20260216_0000085",
+      "magnitude": 1.1,
+      "place": "CENTRAL TURKEY",
+      "coordinates": {
+        "latitude": 38.0694,
+        "longitude": 37.7653,
+        "depth": 7
+      },
+      "time": "2026-02-16T05:42:42.260Z",
+      "updatedAt": "2026-02-16T07:32:42.770Z",
+      "detailUrl": "/data/snapshots/20260216-073241/events/eq-emsc-20260216_0000085.json"
+    }
+  ]
+}

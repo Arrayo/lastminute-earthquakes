@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "eq-emsc-20260216_0000089",
+  "magnitude": 4.2,
+  "magnitudeType": "m",
+  "place": "WESTERN XIZANG",
+  "coordinates": {
+    "latitude": 28.35,
+    "longitude": 87.63,
+    "depth": 10
+  },
+  "time": "2026-02-16T06:05:49.700Z",
+  "updatedAt": "2026-02-16T07:32:42.770Z",
+  "source": {
+    "id": "emsc",
+    "name": "EMSC / SeismicPortal",
+    "url": "https://www.seismicportal.eu/",
+    "attribution": "European-Mediterranean Seismological Centre"
+  },
+  "impact": {
+    "tsunami": false,
+    "felt": null,
+    "alert": null,
+    "cdi": null,
+    "mmi": null,
+    "significance": 0
+  },
+  "quality": {
+    "status": "automatic",
+    "gapDistance": null,
+    "rms": null,
+    "stationCount": 0
+  },
+  "url": "https://www.seismicportal.eu/eventdetail.html?unid=20260216_0000089"
+}

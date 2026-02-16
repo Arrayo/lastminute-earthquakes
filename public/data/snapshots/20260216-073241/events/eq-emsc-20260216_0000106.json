@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "eq-emsc-20260216_0000106",
+  "magnitude": 4.1,
+  "magnitudeType": "m",
+  "place": "OFF COAST OF NORTHERN PERU",
+  "coordinates": {
+    "latitude": -8.46,
+    "longitude": -80.19,
+    "depth": 16
+  },
+  "time": "2026-02-16T07:19:10.000Z",
+  "updatedAt": "2026-02-16T07:32:42.770Z",
+  "source": {
+    "id": "emsc",
+    "name": "EMSC / SeismicPortal",
+    "url": "https://www.seismicportal.eu/",
+    "attribution": "European-Mediterranean Seismological Centre"
+  },
+  "impact": {
+    "tsunami": false,
+    "felt": null,
+    "alert": null,
+    "cdi": null,
+    "mmi": null,
+    "significance": 0
+  },
+  "quality": {
+    "status": "automatic",
+    "gapDistance": null,
+    "rms": null,
+    "stationCount": 0
+  },
+  "url": "https://www.seismicportal.eu/eventdetail.html?unid=20260216_0000106"
+}

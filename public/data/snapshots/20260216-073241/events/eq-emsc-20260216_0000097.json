@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "eq-emsc-20260216_0000097",
+  "magnitude": 2.1,
+  "magnitudeType": "ml",
+  "place": "DODECANESE IS.-TURKEY BORDER REG",
+  "coordinates": {
+    "latitude": 36.1342,
+    "longitude": 28.7375,
+    "depth": 17.7
+  },
+  "time": "2026-02-16T06:22:16.000Z",
+  "updatedAt": "2026-02-16T07:32:42.770Z",
+  "source": {
+    "id": "emsc",
+    "name": "EMSC / SeismicPortal",
+    "url": "https://www.seismicportal.eu/",
+    "attribution": "European-Mediterranean Seismological Centre"
+  },
+  "impact": {
+    "tsunami": false,
+    "felt": null,
+    "alert": null,
+    "cdi": null,
+    "mmi": null,
+    "significance": 0
+  },
+  "quality": {
+    "status": "automatic",
+    "gapDistance": null,
+    "rms": null,
+    "stationCount": 0
+  },
+  "url": "https://www.seismicportal.eu/eventdetail.html?unid=20260216_0000097"
+}

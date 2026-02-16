@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "eq-nc75314502",
+  "magnitude": 2.12,
+  "magnitudeType": "md",
+  "place": "1 km NNW of Pinnacles, CA",
+  "coordinates": {
+    "latitude": 36.5415000915527,
+    "longitude": -121.147003173828,
+    "depth": 0.920000016689301
+  },
+  "time": "2026-02-16T06:55:27.680Z",
+  "updatedAt": "2026-02-16T07:32:42.769Z",
+  "source": {
+    "id": "usgs",
+    "name": "USGS Earthquake Hazards Program",
+    "url": "https://earthquake.usgs.gov/",
+    "attribution": "U.S. Geological Survey"
+  },
+  "impact": {
+    "tsunami": false,
+    "felt": null,
+    "alert": null,
+    "cdi": null,
+    "mmi": null,
+    "significance": 69
+  },
+  "quality": {
+    "status": "automatic",
+    "gapDistance": 74,
+    "rms": 0.13,
+    "stationCount": 15
+  },
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75314502"
+}

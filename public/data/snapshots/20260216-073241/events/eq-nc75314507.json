@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "eq-nc75314507",
+  "magnitude": 0.75,
+  "magnitudeType": "md",
+  "place": "8 km NW of The Geysers, CA",
+  "coordinates": {
+    "latitude": 38.8308334350586,
+    "longitude": -122.824996948242,
+    "depth": 3.25
+  },
+  "time": "2026-02-16T07:29:37.000Z",
+  "updatedAt": "2026-02-16T07:32:42.770Z",
+  "source": {
+    "id": "usgs",
+    "name": "USGS Earthquake Hazards Program",
+    "url": "https://earthquake.usgs.gov/",
+    "attribution": "U.S. Geological Survey"
+  },
+  "impact": {
+    "tsunami": false,
+    "felt": null,
+    "alert": null,
+    "cdi": null,
+    "mmi": null,
+    "significance": 9
+  },
+  "quality": {
+    "status": "automatic",
+    "gapDistance": 93,
+    "rms": 0.03,
+    "stationCount": 6
+  },
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75314507"
+}

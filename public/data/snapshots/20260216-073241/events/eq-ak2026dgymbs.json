@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "eq-ak2026dgymbs",
+  "magnitude": 1.4,
+  "magnitudeType": "ml",
+  "place": "17 km NW of Tatitlek, Alaska",
+  "coordinates": {
+    "latitude": 60.981,
+    "longitude": -146.897,
+    "depth": 27
+  },
+  "time": "2026-02-16T06:34:04.615Z",
+  "updatedAt": "2026-02-16T07:32:42.769Z",
+  "source": {
+    "id": "usgs",
+    "name": "USGS Earthquake Hazards Program",
+    "url": "https://earthquake.usgs.gov/",
+    "attribution": "U.S. Geological Survey"
+  },
+  "impact": {
+    "tsunami": false,
+    "felt": null,
+    "alert": null,
+    "cdi": null,
+    "mmi": null,
+    "significance": 30
+  },
+  "quality": {
+    "status": "automatic",
+    "gapDistance": 62,
+    "rms": 0.4,
+    "stationCount": 11
+  },
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2026dgymbs"
+}
